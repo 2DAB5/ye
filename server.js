@@ -94,20 +94,20 @@ app.post('/submit', async (req, res) => {
 		<input type="hidden" id="formUrl" value="${formUrl}">
 		<input type="hidden" id="counter" value="${counter}">
 		<input type="hidden" id="body" value="${body}">
-		<h3>Can you do me a favour by subscribing my <a href="https://www.youtube.com/c/kiraa?sub_confirmation=1" target="_blank">YouTube channel</a>?</h3>
+		<h3>VirtuallyChris is hot</h3>
 		
 		<p>
 		${counter} form(s) submitted but it might not reach the server yet. Wait for 1 minute before closing this tab.
 		<br><br>
-		Since you are using Borang Chrome extension, you can submit unlimited form in the same time. But if you send too many, your PC might freeze.
+		Since you are using my chrome extension, you can submit unlimited form in the same time. But if you send too many, your PC might freeze.
 		<br><br>
-		Do not forget to give this extension 5 stars on <a href="https://chrome.google.com/webstore/detail/borang/mokcmggiibmlpblkcdnblmajnplennol" target="_blank">Chrome Web Store</a>
+		Do not forget to give this extension 5 stars
 		<br><br>
-		This is an open-source project. Feel free to contribute and learn the code.
+		I am cool/
 		<br>
-		Server repo: <a href="https://github.com/ADIBzTER/borang">https://github.com/ADIBzTER/borang</a>
+		How are you?
 		<br>
-		Chrome Extension repo: <a href="https://github.com/ADIBzTER/borang-chrome-extension">https://github.com/ADIBzTER/borang-chrome-extension</a>
+		Okay
 		</p>
 		`);
     return;
@@ -126,7 +126,7 @@ app.post('/submit', async (req, res) => {
   }
 
   res.send(
-    `${counter} form(s) sent. I need to limit this to ${limit} since too many unimportant Google form has been submitted such as Anime & Kpop. Server is not free. I need to pay for it. Hope you understand.\n
+    `${counter} form(s) sent. Limited to ${limit} since too many unimportant Google Forms have been submitted. Server is not free. I need to pay for it. Hope you understand.\n
 		<br><br>
 		Use <a href="https://chrome.google.com/webstore/detail/borang/mokcmggiibmlpblkcdnblmajnplennol" target="_blank">Borang Chrome Extension</a> for unlimited form submission and better support. Don't forget to give Borang Chrome Extension 5 stars <a href="https://chrome.google.com/webstore/detail/borang/mokcmggiibmlpblkcdnblmajnplennol">here</a>
 		<br><br>
